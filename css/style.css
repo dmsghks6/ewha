@@ -2400,6 +2400,22 @@ footer .footer-right{
         margin-top: 200px;
     }
 
+    /* 서브메뉴 */
+
+    .header-area .bottom-header .main-menu.on {
+        display: flex;
+        font-size: 2rem;
+        flex-direction: column;
+    }
+
+    .header-area .bottom-header .main-menu li {
+        padding: 0;
+    }
+   
+    .header-area .bottom-header .main-menu li:last-child {
+        margin-bottom: 20px;
+    }
+
     /* 섹션1 */
     .sec-1 .top-boxs .box-1{
         display: none;
