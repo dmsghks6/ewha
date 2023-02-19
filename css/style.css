@@ -708,14 +708,14 @@
     line-height: 48px;
     margin: 3rem auto 0;
 
-    transition: 0.3s;
+    transition: 0.5s;
 }
 
 
 /* 이부분이 반응이 느림  */
 .sec2-right .btn:hover{
-    transform: scale(1.02); 
-    color: #87815f;
+    background-color: #1F1A16;
+    color: #e0e0d5;
     
 }
 
