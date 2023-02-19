@@ -1962,7 +1962,7 @@ footer .footer-right{
 
 
     .header-area .bottom-header .main-menu.on{
-        display: block;
+        /* display: block; */
         width: 100%;
         height: 90vh;
         font-size: 3rem;
