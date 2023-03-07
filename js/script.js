@@ -33,50 +33,6 @@ $(document).ready(function(){
     })
     
 
-        
-
-
-
-
-
-
-    // 공지사항
-
-
-    // orgn 지우지 말것 
-    // $('.sec-3 .tab-btn li').click(function(){
-    //     $(this).siblings().removeClass('on');
-    //     $(this).addClass('on').slideDown('.tab-body');
-        
-    //     const result = $(this).attr('data-alt');
-
-    //     $('.sec-3 .tab-right > div').removeClass('on');
-    //     $(`#${result}`).addClass('on').slideDown('.tab-body');
-
-    // });
-
-
-    // 이 부분은 js 반응형 할때 적으면 되는 부분 => 모바일 사이즈일때 적용할꺼
-    // $('.mobile-head').click(function(){
-    //     const menuHas = $(this).parent('.mobile-btn').hasClass('on')
-        
-    //     if(menuHas == true){
-    //         //'.mobile-btn' 에 on 클래스가 있는경우
-    //         $(this).parent('.mobile-btn').removeClass('on');
-
-    //     }else{
-    //         //'.mobile-btn' 에 on 클래스가 없는경우
-    //         $(this).parent('.mobile-btn').addClass('on');
-    //         $(this).parent('.mobile-btn').siblings().removeClass('on');
-    //     }
-    // });
-
- 
-
-
-
-
-
 
 
     $('.sec-4 .tab-head').click(function(){

@@ -19,11 +19,6 @@
     
 }
 
-/* .header-area.on{
-    background-color: #EEEEEE;
-    backdrop-filter: blur(10px);
-} */
-
 
 /* 픽스된 헤더 위쪽 */
 .header-area .top-header{
@@ -1552,7 +1547,6 @@ footer .footer-right{
     outline: none;
     text-align: center;
     background-color: transparent;
-   
 }
 
 
