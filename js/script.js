@@ -97,7 +97,8 @@ $(document).ready(function(){
                     // 로고 밑에줄에 생기게 하기 
                     $('.header-area .bottom-header').addClass('on')
                     // bottom-heade 높이 100px -> 90px로 변경
-                    $('.header-area .bottom-header .main-menu').addClass('on')
+                    
+                    // $('.header-area .bottom-header .main-menu').addClass('on')
                     // 한줄짜리 header일때 글씨 좀 떨어지게 하기 
                     $('.open-menu-area').removeClass('top');
         
@@ -152,8 +153,9 @@ $(document).ready(function(){
                 $('.hamburger span:first-child').toggleClass('on');
                 $('.hamburger span:last-child').toggleClass('on');
                 $('.header-area .bottom-header .main-menu').toggleClass('on')
+                
             });
-
+            
 
 
             $('.mobile-head').click(function(){
