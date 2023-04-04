@@ -1,5 +1,12 @@
 $(document).ready(function(){
 
+    // let windowWidth = $(window).width();  // 초기 윈도우 창 크기 설정
+
+    // $(window).resize(function() {
+    // windowWidth = $(window).width();  // 윈도우 창 크기 업데이트
+    // });
+
+    
     var swiper = new Swiper(".mySwiper", {
         effect : "fade",
         loop : true,
@@ -62,6 +69,18 @@ $(document).ready(function(){
 
     });
 
+    
+    $('.hamburger').click(function(){
+
+        console.log('hihi')
+
+        $('.hamburger span:first-child').toggleClass('on');
+        $('.hamburger span:last-child').toggleClass('on');
+        $('.header-area .bottom-header .main-menu').toggleClass('on')
+        
+    });
+    
+
 
     media();
 
@@ -83,7 +102,8 @@ $(document).ready(function(){
                     $(this).removeClass('bottom');
             });
                 
-               
+            
+            
             $(window).scroll(function(){
                 const btn = $('.top-btn');
                 const sct = $(window).scrollTop();
@@ -148,14 +168,7 @@ $(document).ready(function(){
             });
 
             
-        }else if(windowWidth > 350 && windowWidth < 1000){
-            $('.hamburger').click(function(){
-                $('.hamburger span:first-child').toggleClass('on');
-                $('.hamburger span:last-child').toggleClass('on');
-                $('.header-area .bottom-header .main-menu').toggleClass('on')
-                
-            });
-            
+        }else if(windowWidth < 1000){
 
 
             $('.mobile-head').click(function(){
@@ -190,6 +203,8 @@ $(document).ready(function(){
         },1000);
     });
             
+
+     
 
 
 });//end
