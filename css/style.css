@@ -102,7 +102,7 @@
 .bottom-header .scroll-logo.on{
     display: block;
     width: 270px;
-    height: 60px;
+    height: 61px;
     
 }
 
@@ -159,8 +159,8 @@
     height: 10px;
     border-radius: 50%;
     background-color: #5d7963;
-    top: -50%;
-    left: -8%;
+    top: -5px;
+    left: 10px;
     opacity: 0;
 }
 
@@ -653,7 +653,7 @@
 }
 
 .sec-2 .container .sec2-left .mask-dom{
-    width: 39vw;
+    width: 37vw;
     height: 66vh;
     border-top-left-radius: 400px;
     border-top-right-radius: 400px;
